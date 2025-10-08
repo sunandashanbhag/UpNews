@@ -1,4 +1,4 @@
-from fastapi import APIRouter
+from fastapi import APIRouter,HTTPException
 from app.services.news_filter import get_mood_filtered_news
 
 router = APIRouter()
